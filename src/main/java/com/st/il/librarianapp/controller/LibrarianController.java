@@ -1,4 +1,4 @@
-package com.st.lms.controller;
+package com.st.il.librarianapp.controller;
 
 import java.util.List;
 
@@ -13,10 +13,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.st.lms.dto.BkCopiesDTO;
-import com.st.lms.exception.NotFoundException;
-import com.st.lms.models.*;
-import com.st.lms.service.*;
+import com.st.il.librarianapp.dto.BkCopiesDTO;
+import com.st.il.librarianapp.exception.NotFoundException;
+import com.st.il.librarianapp.models.*;
+import com.st.il.librarianapp.service.*;
 
 @RestController
 @RequestMapping("/librarian")

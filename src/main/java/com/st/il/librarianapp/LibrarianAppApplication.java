@@ -1,13 +1,13 @@
-package com.st.lms;
+package com.st.il.librarianapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class LmsApplication {
+public class LibrarianAppApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(LmsApplication.class, args);
+		SpringApplication.run(LibrarianAppApplication.class, args);
 	}
 
 }

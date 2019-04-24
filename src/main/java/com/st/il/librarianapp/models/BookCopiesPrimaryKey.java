@@ -1,4 +1,4 @@
-package com.st.lms.models;
+package com.st.il.librarianapp.models;
 
 import java.io.Serializable;
 

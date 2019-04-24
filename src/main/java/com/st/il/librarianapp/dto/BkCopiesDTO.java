@@ -1,8 +1,8 @@
-package com.st.lms.dto;
+package com.st.il.librarianapp.dto;
 
-import com.st.lms.models.Author;
-import com.st.lms.models.Book;
-import com.st.lms.models.BookCopies;
+import com.st.il.librarianapp.models.Author;
+import com.st.il.librarianapp.models.Book;
+import com.st.il.librarianapp.models.BookCopies;
 
 public class BkCopiesDTO {
 	

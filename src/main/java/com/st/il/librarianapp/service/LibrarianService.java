@@ -1,4 +1,4 @@
-package com.st.lms.service;
+package com.st.il.librarianapp.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,15 +7,15 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.st.lms.dao.AuthorDao;
-import com.st.lms.dao.BookCopiesDao;
-import com.st.lms.dao.BookDao;
-import com.st.lms.dao.LibBranchDao;
-import com.st.lms.dto.BkCopiesDTO;
-import com.st.lms.models.Author;
-import com.st.lms.models.Book;
-import com.st.lms.models.BookCopies;
-import com.st.lms.models.LibraryBranch;
+import com.st.il.librarianapp.dao.AuthorDao;
+import com.st.il.librarianapp.dao.BookCopiesDao;
+import com.st.il.librarianapp.dao.BookDao;
+import com.st.il.librarianapp.dao.LibBranchDao;
+import com.st.il.librarianapp.dto.BkCopiesDTO;
+import com.st.il.librarianapp.models.Author;
+import com.st.il.librarianapp.models.Book;
+import com.st.il.librarianapp.models.BookCopies;
+import com.st.il.librarianapp.models.LibraryBranch;
 
 @Service
 public class LibrarianService {

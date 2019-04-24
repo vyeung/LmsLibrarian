@@ -1,4 +1,4 @@
-package com.st.lms.exception;
+package com.st.il.librarianapp.exception;
 
 import java.sql.SQLException;
 
